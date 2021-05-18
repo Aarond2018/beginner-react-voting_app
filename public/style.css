@@ -1,0 +1,101 @@
+/* Styles go here */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-header {
+  text-align: center;
+  margin: 2rem 0;
+  display: block;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  width: 80%;
+  border: 1px solid hsl(0, 0%, 80%);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .05);
+  /* height: 7rem; */
+  max-width: 40rem;
+  margin: 0.5rem 0;
+  display: flex;
+}
+
+.box-image {
+  width: 30%;
+}
+
+.box-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.box-content {
+  width: 70%;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-contenthead {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.box-upArrow {
+  width: 1.5rem;
+  height: 1rem;
+  background: rgba(16, 138, 168, 0.555);
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  cursor: pointer;
+}
+
+.box-number {
+  font-weight: 700;
+  margin-left: 0.8rem;
+}
+
+.box-title {
+  color:rgba(16, 138, 168, 0.555);
+  margin: 0.5rem 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.box-desc {
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.box-submit {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.box-submit-text {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.box-submit img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+}
